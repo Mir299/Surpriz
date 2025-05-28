@@ -14,7 +14,8 @@
         position: absolute;
         top: 100%;
         flex-direction: column;
-        background: #000;
+        background: #fd72aa;
+        border: 1px white solid;
         align-items: center;
         right: 0;
         padding: 15px;
@@ -22,6 +23,7 @@
         transform: scaleY(0);
         transform-origin: top ;
     }
+
     .nav__menu:hover .nav__list{
         transform: scaleY(1) ;
     }
